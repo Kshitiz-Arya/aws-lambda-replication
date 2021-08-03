@@ -1,0 +1,22 @@
+{
+    "Code" : "",
+    "CodeSigningConfigArn" : "",
+    "DeadLetterConfig" : "",
+    "Description" : "",
+    "Environment" : "",
+    "FileSystemConfigs" : "",
+    "FunctionName" : "",
+    "Handler" : "",
+    "ImageConfig" : "",
+    "KmsKeyArn" : "",
+    "Layers" : "",
+    "MemorySize" : "",
+    "PackageType" : "",
+    "ReservedConcurrentExecutions" : "",
+    "Role" : "",
+    "Runtime" : "",
+    "Tags" : "",
+    "Timeout" : "",
+    "TracingConfig" : "",
+    "VpcConfig" : ""
+  }

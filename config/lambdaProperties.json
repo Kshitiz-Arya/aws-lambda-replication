@@ -1,0 +1,6 @@
+{
+
+    "sourceFunction": ["Lambda-Function-Name"],
+    "targetFunction": "template/lambdaTemplate.json",
+    "regions" : ["us-east-1", "us-east-2"]
+  }

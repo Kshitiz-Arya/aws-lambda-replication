@@ -1,0 +1,7 @@
+- name: Importing Lambda Function
+  ansible.builtin.script: lambda_replication.py
+  args:
+    executable: python3
+    
+- include_vars: 
+    file: "config/lambdaConfig.yml" 

@@ -1,0 +1,13 @@
+---
+- name: deploy my_lambda_function
+  hosts: 127.0.0.1
+  connection: local
+
+  tasks:
+    - include_vars: 
+        file: "config/lambdaProperties.json" 
+        name: lambdaProperties
+
+    - include: "includes/lambda_import.yml"
+    - include: "includes/lambda_deploy.yml"
+
